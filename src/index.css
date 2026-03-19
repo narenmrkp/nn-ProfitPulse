@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-orange-500 text-zinc-900 font-sans;
+    background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+    background-attachment: fixed;
+  }
+}
+
+.glass {
+  @apply bg-white/90 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.chart-container {
+  @apply w-full h-[300px] md:h-[400px];
+}
+
+.card-pink {
+  @apply bg-pink-50/95 backdrop-blur-sm border border-pink-200/50 shadow-lg rounded-2xl;
+}
+
+.nav-violet {
+  @apply bg-violet-900/90 backdrop-blur-md border-b border-violet-400/20 shadow-xl;
+}

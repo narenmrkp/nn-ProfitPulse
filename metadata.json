@@ -1,0 +1,5 @@
+{
+  "name": "ProfitPulse",
+  "description": "AI-powered portfolio profit analysis from screenshots and CSV statements.",
+  "requestFramePermissions": []
+}
